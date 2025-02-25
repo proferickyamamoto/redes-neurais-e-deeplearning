@@ -37,9 +37,9 @@ Os notebooks Python estão na pasta [`Notebooks`](Notebooks/). Eles incluem exem
 Se desejar contribuir com melhorias, sugestões ou adicionar novos materiais, fique à vontade para abrir uma *issue* ou enviar um *pull request*.
 
 ## 📩 Contato
-Para dúvidas ou sugestões, você pode entrar em contato via [seu email ou link de contato].
+Para dúvidas ou sugestões, você pode entrar em contato via [proferick.yamamoto@fiap.com.br] ou [profeyamamoto@gmail.com].
 
 ---
-✍️ **Mantenedor:** [Seu Nome]  
+✍️ **Responsável:** [Erick Toshio Yamamoto]  
 📅 **Última Atualização:** [Data]
 
