@@ -24,23 +24,23 @@ a_{21} & a_{22} \end{bmatrix} \$$
 
 ### ✏️ **Operações Matriciais**
 1️⃣ **Soma de Matrizes**  
-$$
+$$\
 C = A + B
-$$
+\$$
 
 2️⃣ **Multiplicação Escalar**  
-\[
+$$\
 \lambda A = \begin{bmatrix} \lambda a_{11} & \lambda a_{12} \ \lambda a_{21} & \lambda a_{22} \end{bmatrix}
-\]
+\$$
 
 3️⃣ **Produto Matricial**  
 Se \( A \) é uma matriz \( m 	imes n \) e \( B \) é uma matriz \( n 	imes p \), então o produto \( C = A \cdot B \) resulta em uma matriz \( m 	imes p \).
 
 4️⃣ **Transposição de Matriz**  
 A transposição troca as linhas e colunas de uma matriz:  
-\[
+$$\
 A^T = \begin{bmatrix} a_{11} & a_{21} \ a_{12} & a_{22} \end{bmatrix}
-\]
+\$$
 
 ---
 
@@ -51,25 +51,25 @@ O **Cálculo Diferencial** permite entender como pequenas mudanças nas entradas
 A derivada mede a **taxa de variação** de uma função. Exemplo:
 
 Seja a função:
-\[
+\$$
 f(x) = x^2 + 3x + 2
-\]
+\$$
 Sua derivada é:
-\[
+\$$
 f'(x) = 2x + 3
-\]
+\$$
 
 ### 🔵 **Derivadas Parciais**
 Usadas para funções com múltiplas variáveis. Exemplo:
 
 Seja a função:
-\[
+\$$
 f(x, y) = x^2 + 3xy + y^2
-\]
+\$$
 A derivada parcial em relação a \( x \) é:
-\[
+\$$
 rac{\partial f}{\partial x} = 2x + 3y
-\]
+\$$
 
 ---
 
