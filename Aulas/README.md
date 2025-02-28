@@ -1,13 +1,11 @@
 ## 📘 Aulas
 Os arquivos de aula estão disponíveis nesta pasta. Cada PDF contém materiais teóricos e explicações detalhadas sobre os tópicos abordados.
 
-[Aula 1](Aula%201%20-%20Introdu%C3%A7%C3%A3o%20%C3%A0%20Intelig%C3%AAncia%20Artificial.pdf)- Abordaremos um Breafing do conteúdo de Inteligência Artificial e as tecnologias emergentes hoje em dia.
+[Aula 01.1](Aula%201%20-%20Introdu%C3%A7%C3%A3o%20%C3%A0%20Intelig%C3%AAncia%20Artificial.pdf)- Abordaremos um Breafing do conteúdo de Inteligência Artificial e as tecnologias emergentes hoje em dia.
 
-[Aula 2](Aula%202%20-%20Matem%C3%A1tica%20para%20Redes%20Neurais.pdf) - Introdução aos conceitos matemáticos fundamentais para redes neurais.
+[Aula 02.1](Aula%202%20-%20Matem%C3%A1tica%20para%20Redes%20Neurais.pdf) - Introdução aos conceitos matemáticos fundamentais para redes neurais.
 
-
-
-# Aula 03.1 - Análise de Componentes Principais (PCA) - [Aula 3](Aula%2003.1%20-%20Principal%20Components%20Analysis.pdf) 
+# [Aula 03.1](Aula%2003.1%20-%20Principal%20Components%20Analysis.pdf)  - Análise de Componentes Principais (PCA) 
 
 A Análise de Componentes Principais (PCA) é uma técnica estatística utilizada para reduzir a dimensionalidade de conjuntos de dados, preservando o máximo de variância possível. Isso é alcançado transformando as variáveis originais em um novo conjunto de variáveis ortogonais chamadas componentes principais.
 
