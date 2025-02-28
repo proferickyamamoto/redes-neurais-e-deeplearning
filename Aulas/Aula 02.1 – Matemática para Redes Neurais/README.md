@@ -19,7 +19,7 @@ $$\ v = \begin{bmatrix} v_1 \ v_2 \dots \ v_n \end{bmatrix} \$$
 ### 🔵 **Matrizes**
 As matrizes armazenam dados organizados em **linhas e colunas**. Exemplo:
 
-$$\ A = \begin{bmatrix} a_{11} & a_{12} \\ a_{21} & a_{22} \end{bmatrix} \$$
+$$\ A = \[\begin{bmatrix} a_{11} & a_{12} \\ a_{21} & a_{22} \end{bmatrix} \]\$$
 
 ### ✏️ **Operações Matriciais**
 1️⃣ **Soma de Matrizes**  
