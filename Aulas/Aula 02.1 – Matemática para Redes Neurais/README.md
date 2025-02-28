@@ -24,14 +24,11 @@ a_{21} & a_{22} \end{bmatrix} \$$
 
 ### ✏️ **Operações Matriciais**
 1️⃣ **Soma de Matrizes**  
-$$\
-C = A + B
-\$$
+
+$$\ C = A + B \$$
 
 2️⃣ **Multiplicação Escalar**  
-$$\
-\lambda A = \begin{bmatrix} \lambda a_{11} & \lambda a_{12} \ \lambda a_{21} & \lambda a_{22} \end{bmatrix}
-\$$
+$$\ \lambda A = \begin{bmatrix} \lambda a_{11} & \lambda a_{12} \ \lambda a_{21} & \lambda a_{22} \end{bmatrix} \$$
 
 3️⃣ **Produto Matricial**  
 Se \( A \) é uma matriz \( m 	imes n \) e \( B \) é uma matriz \( n 	imes p \), então o produto \( C = A \cdot B \) resulta em uma matriz \( m 	imes p \).
