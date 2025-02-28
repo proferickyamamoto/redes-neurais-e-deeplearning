@@ -13,11 +13,10 @@ A **Álgebra Linear** é essencial para o funcionamento das redes neurais, pois 
 
 ### 🟢 **Vetores**
 Os vetores representam magnitudes e direções no espaço. Um vetor **v** pode ser escrito como:
-```yaml
-\[
+
+$\[
 v = egin{bmatrix} v_1 \ v_2 \ dots \ v_n \end{bmatrix}
-\]
-```
+\]$
 ### 🔵 **Matrizes**
 As matrizes armazenam dados organizados em **linhas e colunas**. Exemplo:
 ```yaml
