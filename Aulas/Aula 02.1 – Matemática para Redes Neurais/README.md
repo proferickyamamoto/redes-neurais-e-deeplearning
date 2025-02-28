@@ -94,11 +94,11 @@ L = -\sum_{i=1}^{n} y_i \log(\hat{y}_i)
 
 ### ⚡ **Fórmula do Gradiente Descendente**
 ```math
-w = w -  \alpha \abla L(w)
+w = w -  \alpha \nablaL(w)
 ```
 Onde:
-- \(alpha \) é a **taxa de aprendizado**.
-- \(abla L(w) \) é o **gradiente da função de custo**.
+- $$\alpha $$ é a **taxa de aprendizado**.
+- $$\nablaL(w)$$ é o **gradiente da função de custo**.
 
 ---
 
