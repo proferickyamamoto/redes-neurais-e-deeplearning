@@ -5,6 +5,8 @@ Os arquivos de aula estão disponíveis nesta pasta. Cada PDF contém materiais 
 
 [Aula 2](Aula%202%20-%20Matem%C3%A1tica%20para%20Redes%20Neurais.pdf) - Introdução aos conceitos matemáticos fundamentais para redes neurais.
 
+[Aula 3](Aula%2003.1%20-%20Principal%20Components%20Analysis.pdf)
+
 ✍️ **Responsável:** [Erick Toshio Yamamoto]  
 📅 **Última Atualização:** [25/02/2025]
 
