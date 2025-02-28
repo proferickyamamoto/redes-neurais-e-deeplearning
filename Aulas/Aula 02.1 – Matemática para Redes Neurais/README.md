@@ -32,13 +32,12 @@ $$\ C = A + B \$$
 \lambda A = \begin{bmatrix} \lambda a_{11} & \lambda a_{12} \ \lambda a_{21} & \lambda a_{22} \end{bmatrix} 
 ```
 3️⃣ **Produto Matricial**  
-```math
-Se \( A \) é uma matriz \( m 	imes n \) e \( B \) é uma matriz \( n 	imes p \), então o produto \( C = A \cdot B \) resulta em uma matriz \( m 	imes p \).
-```
+Se  A é uma matriz  (m x n) e  B é uma matriz (n x p), então o produto C = A * B  resulta em uma matriz (m x p).
+
 4️⃣ **Transposição de Matriz**  
 A transposição troca as linhas e colunas de uma matriz:  
 ```math
-A^T = \begin{bmatrix} a_{11} & a_{21} \ a_{12} & a_{22} \end{bmatrix}
+A^T = \begin{bmatrix} a_{11} & a_{21} \\ a_{12} & a_{22} \end{bmatrix}
 ```
 
 ---
