@@ -36,7 +36,7 @@ Onde:
 A **covariância** mede como duas variáveis variam juntas:
 
 ```math
-	ext{cov}(X, Y) = \frac{1}{n} \sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y})
+	\text{cov}(X, Y) = \frac{1}{n} \sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y})
 ```
 
 Uma **matriz de covariância** captura a relação entre múltiplas variáveis:
@@ -44,8 +44,8 @@ Uma **matriz de covariância** captura a relação entre múltiplas variáveis:
 ```math
 C = 
 \begin{bmatrix}
-	ext{Var}(X_1) & 	ext{Cov}(X_1, X_2) & \dots \\
-	ext{Cov}(X_2, X_1) & 	ext{Var}(X_2) & \dots \\
+	\text{Var}(X_1) & 	\text{Cov}(X_1, X_2) & \dots \\
+	\text{Cov}(X_2, X_1) & 	\text{Var}(X_2) & \dots \\
 
 dots & 
 dots & \ddots
@@ -53,7 +53,7 @@ dots & \ddots
 ```
 
 ### 📌 **Autovalores e Autovetores**
-Os **autovalores** (\( \lambda \)) e **autovetores** (\( v \)) de uma matriz \( A \) satisfazem:
+Os **autovalores** ($$\ \lambda \$$) e **autovetores** ($$ v $$) de uma matriz $$ A $$ satisfazem:
 ```math
 A v = \lambda v
 ```
