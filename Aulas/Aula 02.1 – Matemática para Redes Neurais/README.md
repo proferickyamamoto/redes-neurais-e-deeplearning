@@ -15,7 +15,7 @@ A **Álgebra Linear** é essencial para o funcionamento das redes neurais, pois 
 Os vetores representam magnitudes e direções no espaço. Um vetor **v** pode ser escrito como:
 
 $$\
-v = \begin{bmatrix} v_1 \v_2 \dots \v_n \end{bmatrix}
+v = \begin{bmatrix} v_1 \ v_2 \dots \ v_n \end{bmatrix}
 \$$
 
 ### 🔵 **Matrizes**
