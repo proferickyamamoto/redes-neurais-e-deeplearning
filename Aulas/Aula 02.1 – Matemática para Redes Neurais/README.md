@@ -14,16 +14,18 @@ A **Álgebra Linear** é essencial para o funcionamento das redes neurais, pois 
 ### 🟢 **Vetores**
 Os vetores representam magnitudes e direções no espaço. Um vetor **v** pode ser escrito como:
 
-$\[
-v = egin{bmatrix} v_1 \ v_2 \ dots \ v_n \end{bmatrix}
-\]$
+\[
+v = \begin{bmatrix} v_1 \ v_2 \ 
+dots \ v_n \end{bmatrix}
+\]
+
 ### 🔵 **Matrizes**
 As matrizes armazenam dados organizados em **linhas e colunas**. Exemplo:
-```yaml
+
 \[
-A = egin{bmatrix} a_{11} & a_{12} \ a_{21} & a_{22} \end{bmatrix}
+A = \begin{bmatrix} a_{11} & a_{12} \ a_{21} & a_{22} \end{bmatrix}
 \]
-```
+
 ### ✏️ **Operações Matriciais**
 1️⃣ **Soma de Matrizes**  
 \[
@@ -32,7 +34,7 @@ C = A + B
 
 2️⃣ **Multiplicação Escalar**  
 \[
-\lambda A = egin{bmatrix} \lambda a_{11} & \lambda a_{12} \ \lambda a_{21} & \lambda a_{22} \end{bmatrix}
+\lambda A = \begin{bmatrix} \lambda a_{11} & \lambda a_{12} \ \lambda a_{21} & \lambda a_{22} \end{bmatrix}
 \]
 
 3️⃣ **Produto Matricial**  
@@ -41,7 +43,7 @@ Se \( A \) é uma matriz \( m 	imes n \) e \( B \) é uma matriz \( n 	imes p \)
 4️⃣ **Transposição de Matriz**  
 A transposição troca as linhas e colunas de uma matriz:  
 \[
-A^T = egin{bmatrix} a_{11} & a_{21} \ a_{12} & a_{22} \end{bmatrix}
+A^T = \begin{bmatrix} a_{11} & a_{21} \ a_{12} & a_{22} \end{bmatrix}
 \]
 
 ---
@@ -98,11 +100,11 @@ L = -\sum_{i=1}^{n} y_i \log(\hat{y}_i)
 
 ### ⚡ **Fórmula do Gradiente Descendente**
 \[
-w = w - lpha 
+w = w -  lpha 
 abla L(w)
 \]
 Onde:
-- \( lpha \) é a **taxa de aprendizado**.
+- \(  lpha \) é a **taxa de aprendizado**.
 - \( 
 abla L(w) \) é o **gradiente da função de custo**.
 
@@ -130,5 +132,4 @@ abla L(w) \) é o **gradiente da função de custo**.
 
 ## 🚀 6. Próximos Passos
 Na próxima aula, exploraremos **Análise Exploratória de Dados (EDA) e Pré-processamento** para preparar os dados antes de treinar modelos de redes neurais!
-
 
