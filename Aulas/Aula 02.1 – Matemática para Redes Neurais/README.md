@@ -32,13 +32,14 @@ $$\ C = A + B \$$
 \lambda A = \begin{bmatrix} \lambda a_{11} & \lambda a_{12} \ \lambda a_{21} & \lambda a_{22} \end{bmatrix} 
 ```
 3️⃣ **Produto Matricial**  
+```math
 Se \( A \) é uma matriz \( m 	imes n \) e \( B \) é uma matriz \( n 	imes p \), então o produto \( C = A \cdot B \) resulta em uma matriz \( m 	imes p \).
-
+```
 4️⃣ **Transposição de Matriz**  
 A transposição troca as linhas e colunas de uma matriz:  
-$$\
+```math
 A^T = \begin{bmatrix} a_{11} & a_{21} \ a_{12} & a_{22} \end{bmatrix}
-\$$
+```
 
 ---
 
@@ -49,25 +50,25 @@ O **Cálculo Diferencial** permite entender como pequenas mudanças nas entradas
 A derivada mede a **taxa de variação** de uma função. Exemplo:
 
 Seja a função:
-\$$
+```math
 f(x) = x^2 + 3x + 2
-\$$
+```
 Sua derivada é:
-\$$
+```math
 f'(x) = 2x + 3
-\$$
+```
 
 ### 🔵 **Derivadas Parciais**
 Usadas para funções com múltiplas variáveis. Exemplo:
 
 Seja a função:
-\$$
+```math
 f(x, y) = x^2 + 3xy + y^2
-\$$
+```
 A derivada parcial em relação a \( x \) é:
-\$$
+```math
 rac{\partial f}{\partial x} = 2x + 3y
-\$$
+```
 
 ---
 
@@ -78,29 +79,27 @@ O **Gradiente Descendente** é um dos algoritmos mais importantes para otimizar 
 A **função de custo** mede a diferença entre a saída prevista e o valor real. Exemplos:
 
 1️⃣ **Erro Quadrático Médio (MSE)**  
-\[
+```math
 MSE = rac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2
-\]
+```
 
 2️⃣ **Erro Absoluto Médio (MAE)**  
-\[
+```math
 MAE = rac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i|
-\]
+```
 
 3️⃣ **Entropia Cruzada (Cross-Entropy Loss)**  
-\[
+```math
 L = -\sum_{i=1}^{n} y_i \log(\hat{y}_i)
-\]
+```
 
 ### ⚡ **Fórmula do Gradiente Descendente**
-\[
-w = w -  lpha 
-abla L(w)
-\]
+```math
+w = w -  \alpha \abla L(w)
+```
 Onde:
-- \(  lpha \) é a **taxa de aprendizado**.
-- \( 
-abla L(w) \) é o **gradiente da função de custo**.
+- \(alpha \) é a **taxa de aprendizado**.
+- \(abla L(w) \) é o **gradiente da função de custo**.
 
 ---
 
