@@ -1,4 +1,4 @@
-# 📌 Introdução a Redes Neurais e Deep Learning
+# 📌 Aula 01.1 - Introdução a Inteligêncai Artificial
 
 ## 🎯 Objetivos da Aula
 Nesta aula, vamos abordar os seguintes tópicos:
