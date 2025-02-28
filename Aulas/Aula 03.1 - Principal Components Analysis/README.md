@@ -44,11 +44,9 @@ Uma **matriz de covariância** captura a relação entre múltiplas variáveis:
 ```math
 C = 
 \begin{bmatrix}
-	\text{Var}(X_1) & 	\text{Cov}(X_1, X_2) & \dots \\
-	\text{Cov}(X_2, X_1) & 	\text{Var}(X_2) & \dots \\
-
-dots & 
-dots & \ddots
+	\text{Var}(X_1) 	& 	\text{Cov}(X_1, X_2) 	& \dots \\
+	\text{Cov}(X_2, X_1) 	& 	\text{Var}(X_2) 	& \dots \\
+	\dots 			& 	\dots 			& \ddots
 \end{bmatrix}
 ```
 
