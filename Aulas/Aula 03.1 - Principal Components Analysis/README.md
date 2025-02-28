@@ -1,5 +1,5 @@
 
-# Aula 03.1- Análise de Componentes Principais (PCA) 
+# 📌 Aula 03.1- Análise de Componentes Principais (PCA) 
 
 A Análise de Componentes Principais (PCA) é uma técnica estatística utilizada para reduzir a dimensionalidade de conjuntos de dados, preservando o máximo de variância possível. Isso é alcançado transformando as variáveis originais em um novo conjunto de variáveis ortogonais chamadas componentes principais.
 
