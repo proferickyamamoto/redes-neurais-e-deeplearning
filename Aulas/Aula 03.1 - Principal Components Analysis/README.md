@@ -51,7 +51,7 @@ C =
 ```
 
 ### 📌 **Autovalores e Autovetores**
-Os **autovalores** ($$\\lambda \$$) e **autovetores** ($$\v \$$) de uma matriz $$\ A \$$ satisfazem:
+Os **autovalores** ($$\\lambda \$$) e **autovetores** ($$\ v \$$) de uma matriz $$\ A \$$ satisfazem:
 ```math
 A v = \lambda v
 ```
