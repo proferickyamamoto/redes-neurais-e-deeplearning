@@ -66,7 +66,7 @@ f(x, y) = x^2 + 3xy + y^2
 ```
 A derivada parcial em relação a \( x \) é:
 ```math
-rac{\partial f}{\partial x} = 2x + 3y
+\frac{\partial f}{\partial x} = 2x + 3y
 ```
 
 ---
@@ -79,12 +79,12 @@ A **função de custo** mede a diferença entre a saída prevista e o valor real
 
 1️⃣ **Erro Quadrático Médio (MSE)**  
 ```math
-MSE = rac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2
+MSE = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2
 ```
 
 2️⃣ **Erro Absoluto Médio (MAE)**  
 ```math
-MAE = rac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i|
+MAE = \frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i|
 ```
 
 3️⃣ **Entropia Cruzada (Cross-Entropy Loss)**  
@@ -94,11 +94,11 @@ L = -\sum_{i=1}^{n} y_i \log(\hat{y}_i)
 
 ### ⚡ **Fórmula do Gradiente Descendente**
 ```math
-w = w -  \alpha \nablaL(w)
+w = w -  \alpha \nabla L(w)
 ```
 Onde:
 - $$\alpha $$ é a **taxa de aprendizado**.
-- $$\nablaL(w)$$ é o **gradiente da função de custo**.
+- $$\nabla L(w)$$ é o **gradiente da função de custo**.
 
 ---
 
