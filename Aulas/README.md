@@ -5,9 +5,9 @@ Os arquivos de aula estão disponíveis nesta pasta. Cada PDF contém materiais 
 
 [Aula 2](Aula%202%20-%20Matem%C3%A1tica%20para%20Redes%20Neurais.pdf) - Introdução aos conceitos matemáticos fundamentais para redes neurais.
 
-[Aula 3](Aula%2003.1%20-%20Principal%20Components%20Analysis.pdf) - 
 
-# Aula 03.1 - Análise de Componentes Principais (PCA)
+
+# Aula 03.1 - Análise de Componentes Principais (PCA) - [Aula 3](Aula%2003.1%20-%20Principal%20Components%20Analysis.pdf) 
 
 A Análise de Componentes Principais (PCA) é uma técnica estatística utilizada para reduzir a dimensionalidade de conjuntos de dados, preservando o máximo de variância possível. Isso é alcançado transformando as variáveis originais em um novo conjunto de variáveis ortogonais chamadas componentes principais.
 
