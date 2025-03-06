@@ -8,6 +8,6 @@ Os arquivos de aula estão disponíveis nesta pasta. Cada PDF contém materiais 
 [Aula 03.1](Aula%2003.1%20-%20Principal%20Components%20Analysis.pdf)  - Tópico para Préprocessamentos dos dados: Análise de Componentes Principais (PCA) 
 
 
-✍️ **Responsável:** [Erick Toshio Yamamoto]  
-📅 **Última Atualização:** [25/02/2025]
-
+📝 Autor: **Erick Toshio**
+📅 Data: 06/03/2025
+📌 Disciplina: Redes Neurais e Deep Learning
