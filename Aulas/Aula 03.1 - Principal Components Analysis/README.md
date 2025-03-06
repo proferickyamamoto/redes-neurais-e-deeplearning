@@ -128,3 +128,7 @@ print(df_pca)
 ## 🚀 6. Próximos Passos
 Na próxima aula, exploraremos como integrar o **sklearn** ao PCA e utilizar a técnica para **pré-processamento de dados** antes de treinar redes neurais!
 
+---
+📝 Autor: **Erick Toshio**
+📅 Data: 06/03/2025
+📌 Disciplina: Redes Neurais e Deep Learning
