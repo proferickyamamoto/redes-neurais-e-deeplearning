@@ -132,6 +132,7 @@ Na próxima aula, entraremos em uma revisão de **Cálculo, Álgebra Linear e Es
 Fique atento e pratique explorando as bibliotecas mencionadas! 🔥
 
 ---
-
-Caso precise de modificações ou mais detalhes, é só avisar! 🚀
+📝 Autor: **Prof. Erick Toshio Yamamoto**
+📅 Data: 06/03/2025
+📌 Disciplina: Redes Neurais e Deep Learning
 
