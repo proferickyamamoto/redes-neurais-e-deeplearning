@@ -126,6 +126,6 @@ Onde:
 Na próxima aula, exploraremos **Análise Exploratória de Dados (EDA) e Pré-processamento** para preparar os dados antes de treinar modelos de redes neurais!
 
 ---
-📝 Autor: **Erick Toshio**
+📝 Autor: **Prof. Erick Toshio Yamamoto**
 📅 Data: 06/03/2025
 📌 Disciplina: Redes Neurais e Deep Learning
