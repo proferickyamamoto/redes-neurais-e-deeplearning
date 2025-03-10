@@ -99,4 +99,11 @@ plt.show()
 
 A **Estatística Descritiva** e a **Análise Exploratória de Dados** são essenciais para compreender os dados antes da modelagem. Através de técnicas estatísticas e visualizações, podemos identificar padrões, outliers e relações entre variáveis, garantindo que os modelos de machine learning sejam construídos sobre uma base confiável e bem estruturada. 🚀
 
+## 🚀 Próximos Passos
+Na próxima aula, exploraremos como integrar todos estes conceitos junto a nossa estrutura Vanilla de Rede Neural!
+
+---
+📝 Autor: **Prof. Erick Toshio Yamamoto**
+📅 Data: 10/03/2025
+📌 Disciplina: Redes Neurais e Deep Learning
 
