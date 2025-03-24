@@ -1,4 +1,4 @@
-# 🧠 Aula 05.1: Introdução às Redes Neurais Artificiais (RNAs)
+# 🧠 Introdução às Redes Neurais Artificiais (RNAs)
 
 As Redes Neurais Artificiais são modelos computacionais inspirados na estrutura do cérebro humano. Elas são compostas por unidades chamadas **neurônios artificiais**, que estão interconectadas por **pesos sinápticos**. Esses modelos são capazes de **aprender padrões a partir de dados** e fazer previsões, classificações ou regressões.
 
@@ -26,23 +26,23 @@ Cada conexão entre neurônios possui um **peso**, que é ajustado durante o tre
 
 ### 🧮 Modelo Matemático de um Neurônio
 
-\[ u = \sum_{i=1}^{n} x_i w_i \]
+$$\ u = \sum_{i=1}^{n} x_i w_i \$$
 
-\[ y = f(u + b) \]
+$$\ y = f(u + b) \$$
 
 Onde:
-- \( x_i \): entrada
-- \( w_i \): peso associado à entrada
-- \( b \): viés (bias)
-- \( f \): função de ativação (ex.: sigmoide, ReLU)
+- $$\ x_i \$$: entrada
+- $$\ w_i \$$: peso associado à entrada
+- $$\ b \$$: viés (bias)
+- $$\ f \$$: função de ativação (ex.: sigmoide, ReLU)
 
 ---
 
 ## 🔧 Funções de Ativação
 
 - **Step Function (limiar):** binária, simples, usada no Perceptron original.
-- **Sigmoide:** \( f(x) = \frac{1}{1 + e^{-x}} \)
-- **ReLU (Rectified Linear Unit):** \( f(x) = \max(0, x) \)
+- **Sigmoide:** $$\ f(x) = \frac{1}{1 + e^{-x}} \$$
+- **ReLU (Rectified Linear Unit):** $$\ f(x) = \max(0, x) \$$
 
 ---
 
@@ -56,6 +56,31 @@ A propagação direta (feedforward) consiste em:
 5. Enviar a saída para a próxima camada.
 
 Essa etapa ocorre **da entrada até a saída final**, sem ajuste de pesos (sem aprendizado).
+
+---
+
+## 💾 Redes Neurais com Memória RAM (RAM-based Neural Networks)
+
+As **Redes Neurais RAM** são arquiteturas alternativas às redes convencionais baseadas em pesos. Inspiradas nos conceitos de **memória de acesso aleatório (RAM)**, essas redes armazenam padrões diretamente na memória e os acessam por endereçamento.
+
+### Características:
+- Não utilizam pesos; os neurônios são implementados com células de memória.
+- A entrada é usada como endereço para recuperar o conteúdo armazenado.
+- Aprendizado simples: armazenar a presença de padrões na memória.
+
+### Exemplos:
+- **WiSARD**: Rede baseada em RAM com neurônios que armazenam padrões binários.
+- **PLN (Probabilistic Logic Networks)**: versão probabilística que lida com incertezas.
+
+### Vantagens:
+- Alta velocidade de aprendizado (one-shot learning).
+- Simplicidade de implementação em hardware.
+
+### Limitações:
+- Pouca generalização em entradas não vistas.
+- Pode exigir grande quantidade de memória em problemas complexos.
+
+As RNAs RAM são eficazes em aplicações de reconhecimento de padrões binários, como reconhecimento de caracteres, biometria e detecção de padrões visuais simples.
 
 ---
 
@@ -124,7 +149,7 @@ Construir uma rede neural simples (sem backpropagation) que classifique os resul
 3. Execute o `feedforward()` com diferentes pesos e analise se a rede se comporta corretamente.
 4. Explique por que a rede consegue ou não resolver o problema da porta XOR.
 
-### Entrega:
+### Arquivo para deixar armazenado:
 - Código comentado (Python `.ipynb` ou `.py`)
 - Tabela de testes
 - Pequeno relatório (até 1 página)
@@ -136,5 +161,4 @@ Construir uma rede neural simples (sem backpropagation) que classifique os resul
 A etapa de **feedforward** é a base do funcionamento das RNAs, sendo essencial para propagar os dados pelas camadas. O **aprendizado** da rede ocorre posteriormente, com o uso do algoritmo de **backpropagation**, que ajusta os pesos com base no erro da saída.
 
 Na próxima aula, veremos como as RNAs **aprendem**, minimizando o erro com **função custo** e **gradiente descendente**.
-
 
