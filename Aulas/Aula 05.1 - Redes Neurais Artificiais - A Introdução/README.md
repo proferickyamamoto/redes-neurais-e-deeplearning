@@ -26,23 +26,23 @@ Cada conexão entre neurônios possui um **peso**, que é ajustado durante o tre
 
 ### 🧮 Modelo Matemático de um Neurônio
 
-$$\ u = \sum_{i=1}^{n} x_i w_i \$$
+\[ u = \sum_{i=1}^{n} x_i w_i \]
 
-$$\ y = f(u + b) \$$
+\[ y = f(u + b) \]
 
 Onde:
-- $$\ x_i \$$: entrada
-- $$\ w_i \$$: peso associado à entrada
-- $$\ b \$$: viés (bias)
-- $$\ f \$$: função de ativação (ex.: sigmoide, ReLU)
+- \( x_i \): entrada
+- \( w_i \): peso associado à entrada
+- \( b \): viés (bias)
+- \( f \): função de ativação (ex.: sigmoide, ReLU)
 
 ---
 
 ## 🔧 Funções de Ativação
 
 - **Step Function (limiar):** binária, simples, usada no Perceptron original.
-- **Sigmoide:** $$\ f(x) = \frac{1}{1 + e^{-x}} \$$
-- **ReLU (Rectified Linear Unit):** $$\ f(x) = \max(0, x) \$$
+- **Sigmoide:** \( f(x) = \frac{1}{1 + e^{-x}} \)
+- **ReLU (Rectified Linear Unit):** \( f(x) = \max(0, x) \)
 
 ---
 
@@ -92,23 +92,35 @@ import numpy as np
 def sigmoid(x):
     return 1 / (1 + np.exp(-x))
 
+def step_function(x):
+    return np.where(x >= 0, 1, 0)
+
 class NeuralNetwork:
-    def __init__(self, input_size, hidden_size, output_size):
+    def __init__(self, input_size, hidden_size, output_size, activation='sigmoid'):
         self.W1 = np.random.randn(input_size, hidden_size)
         self.b1 = np.zeros((1, hidden_size))
         self.W2 = np.random.randn(hidden_size, output_size)
         self.b2 = np.zeros((1, output_size))
+        self.activation = activation
+
+    def activate(self, x):
+        if self.activation == 'sigmoid':
+            return sigmoid(x)
+        elif self.activation == 'step':
+            return step_function(x)
+        else:
+            raise ValueError("Função de ativação desconhecida")
 
     def feedforward(self, X):
         self.z1 = np.dot(X, self.W1) + self.b1
-        self.a1 = sigmoid(self.z1)
+        self.a1 = self.activate(self.z1)
         self.z2 = np.dot(self.a1, self.W2) + self.b2
-        self.output = sigmoid(self.z2)
+        self.output = self.activate(self.z2)
         return self.output
 
-# Exemplo de uso:
+# Exemplo de uso com função degrau:
 X = np.array([[0, 1]])  # entrada binária
-nn = NeuralNetwork(input_size=2, hidden_size=3, output_size=1)
+nn = NeuralNetwork(input_size=2, hidden_size=3, output_size=1, activation='step')
 saida = nn.feedforward(X)
 print("Saída da rede:", saida)
 ```
@@ -149,7 +161,7 @@ Construir uma rede neural simples (sem backpropagation) que classifique os resul
 3. Execute o `feedforward()` com diferentes pesos e analise se a rede se comporta corretamente.
 4. Explique por que a rede consegue ou não resolver o problema da porta XOR.
 
-### Arquivo para deixar armazenado:
+### Entrega:
 - Código comentado (Python `.ipynb` ou `.py`)
 - Tabela de testes
 - Pequeno relatório (até 1 página)
