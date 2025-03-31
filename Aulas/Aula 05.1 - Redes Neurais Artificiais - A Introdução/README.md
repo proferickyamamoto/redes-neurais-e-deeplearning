@@ -26,23 +26,23 @@ Cada conexão entre neurônios possui um **peso**, que é ajustado durante o tre
 
 ### 🧮 Modelo Matemático de um Neurônio
 
-\[ u = \sum_{i=1}^{n} x_i w_i \]
+\$$ u = \sum_{i=1}^{n} x_i w_i \$$
 
-\[ y = f(u + b) \]
+\$$ y = f(u + b) \$$
 
 Onde:
-- \( x_i \): entrada
-- \( w_i \): peso associado à entrada
-- \( b \): viés (bias)
-- \( f \): função de ativação (ex.: sigmoide, ReLU)
+- \$$( x_i )\$$: entrada
+- \$$( w_i )\$$: peso associado à entrada
+- \$$( b )\$$: viés (bias)
+- \$$( f )\$$: função de ativação (ex.: sigmoide, ReLU)
 
 ---
 
 ## 🔧 Funções de Ativação
 
 - **Step Function (limiar):** binária, simples, usada no Perceptron original.
-- **Sigmoide:** \( f(x) = \frac{1}{1 + e^{-x}} \)
-- **ReLU (Rectified Linear Unit):** \( f(x) = \max(0, x) \)
+- **Sigmoide:** \$$ f(x) = \frac{1}{1 + e^{-x}} \$$
+- **ReLU (Rectified Linear Unit):** \$$ f(x) = \max(0, x) \$$
 
 ---
 
