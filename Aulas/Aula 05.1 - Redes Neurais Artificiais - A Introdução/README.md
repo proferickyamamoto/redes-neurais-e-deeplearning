@@ -41,8 +41,8 @@ Onde:
 ## 🔧 Funções de Ativação
 
 - **Step Function (limiar):** binária, simples, usada no Perceptron original.
-- **Sigmoide:** \$$ f(x) = \frac{1}{1 + e^{-x}} \$$
-- **ReLU (Rectified Linear Unit):** \$$ f(x) = \max(0, x) \$$
+- **Sigmoide:** \$$[ f(x) = \frac{1}{1 + e^{-x}} ]\$$
+- **ReLU (Rectified Linear Unit):** \$$[ f(x) = \max(0, x) ]\$$
 
 ---
 
