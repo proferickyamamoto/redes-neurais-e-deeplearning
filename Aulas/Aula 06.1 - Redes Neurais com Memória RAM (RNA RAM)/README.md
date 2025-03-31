@@ -103,20 +103,35 @@ print("Saudável?", ram_saudavel.predict(paciente))
 
 ## 🧪 Atividade em Sala
 
-**Objetivo:** Aplicar os conceitos de RNA RAM para classificar pacientes com base em sintomas binários.
+**Título:** Classificando Formas com RNA RAM
 
-### Tabela de Dados:
-| Febre | Tosse | Dor muscular | Diagnóstico |
-|-------|-------|---------------|-------------|
-| sim   | não   | sim           | doente      |
-| não   | sim   | não           | saudável    |
-| sim   | sim   | sim           | doente      |
-| não   | não   | não           | saudável    |
+**Objetivo:** Utilizar uma rede RAM para identificar padrões simples em figuras geométricas binárias.
 
 ### Etapas:
-1. Converter as entradas para binário (sim = 1, não = 0).
-2. Treinar uma RAM para cada classe.
-3. Testar com novos pacientes.
+1. Os alunos receberão imagens 3x3 de formas geométricas representadas por 0 (fundo) e 1 (figura): quadrado, triângulo e círculo.
+2. Cada grupo deve codificar as imagens como vetores binários.
+3. Treinar uma RAM para reconhecer uma dessas classes.
+4. Testar a RAM com imagens parecidas e observar se a rede reconhece corretamente.
+
+### Exemplos de padrões (3x3):
+
+#### Letra A:
+```
+1 0 1
+1 1 1
+1 0 1
+```
+Vetor: [1,0,1,1,1,1,1,0,1]
+
+#### Letra B:
+```
+1 1 0
+1 1 0
+1 1 1
+```
+Vetor: [1,1,0,1,1,0,1,1,1]
+
+**Materiais:** papel quadriculado, marcadores e tabelas de vetores binários.
 
 ---
 
