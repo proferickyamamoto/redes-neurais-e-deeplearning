@@ -14,11 +14,14 @@ Compreender o funcionamento do **algoritmo de backpropagation**, sua relação c
 ### 2. Função de Custo
 - Mede o erro entre a saída real e a esperada.
 - **Erro Quadrático Médio (MSE):**
+
 \$$ E = \frac{1}{2} \sum (y_{esperado} - y_{obtido})^2 \$$
 
 ### 3. Gradiente Descendente
 - Minimiza a função de custo atualizando os pesos:
+
 \$$ w := w - \eta \cdot \frac{\partial E}{\partial w} \$$
+
 - \$$ (\eta) \$$ é a **taxa de aprendizado**.
 
 ### 4. Algoritmo Backpropagation
