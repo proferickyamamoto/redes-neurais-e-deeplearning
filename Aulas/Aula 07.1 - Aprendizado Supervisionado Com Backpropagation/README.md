@@ -22,7 +22,7 @@ Compreender o funcionamento do **algoritmo de backpropagation**, sua relação c
 
 \$$ w := w - \eta \cdot \frac{\partial E}{\partial w} \$$
 
-- \$$ (\eta) \$$ é a **taxa de aprendizado**.
+- \$$(\eta)\$$ é a **taxa de aprendizado**.
 
 ### 4. Algoritmo Backpropagation
 **Etapas:**
