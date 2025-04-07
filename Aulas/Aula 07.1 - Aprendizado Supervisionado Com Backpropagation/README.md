@@ -1,4 +1,4 @@
-# 🧠 Aula: Aprendizado Supervisionado com Backpropagation
+# 🧠 Aula 07.1: Aprendizado Supervisionado com Backpropagation
 
 ## 🎯 Objetivo
 Compreender o funcionamento do **algoritmo de backpropagation**, sua relação com a **função de custo** e como os pesos são ajustados em uma RNA Multicamadas (MLP) usando o **gradiente descendente**.
@@ -14,11 +14,11 @@ Compreender o funcionamento do **algoritmo de backpropagation**, sua relação c
 ### 2. Função de Custo
 - Mede o erro entre a saída real e a esperada.
 - **Erro Quadrático Médio (MSE):**
-\$$ E = \frac{1}{2} \sum (y_{esperado} - y_{obtido})^2 $$\
+\$$ E = \frac{1}{2} \sum (y_{esperado} - y_{obtido})^2 \$$
 
 ### 3. Gradiente Descendente
 - Minimiza a função de custo atualizando os pesos:
-\$$ w := w - \eta \cdot \frac{\partial E}{\partial w} $$\
+\$$ w := w - \eta \cdot \frac{\partial E}{\partial w} \$$
 - \$$ (\eta) \$$ é a **taxa de aprendizado**.
 
 ### 4. Algoritmo Backpropagation
