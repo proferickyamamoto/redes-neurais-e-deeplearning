@@ -67,4 +67,43 @@ for i in range(10000):
     delta1 = delta2.dot(pesos1.T) * sigmoid_deriv(z1)
 
     pesos1 += a1.T.dot(delta2) * taxa_aprendizado
-    pe
+    pesos0 += camada0.T.dot(delta1) * taxa_aprendizado
+
+print("Resultado final:", a2)
+```
+
+---
+
+## 🧪 Atividade em Sala
+
+**Título:** Treinando a RNA XOR passo a passo
+
+### Instruções:
+1. Execute o código fornecido.
+2. Altere a taxa de aprendizado e observe o comportamento.
+3. Plote a evolução do erro (opcional com `matplotlib`).
+4. Responda:
+   - A rede conseguiu aprender?
+   - Com que taxa de aprendizado ela convergiu melhor?
+
+---
+
+## 🧠 Desafio para Casa
+
+**Título:** Rede para classificar clima
+
+### Objetivo:
+Treinar uma RNA para classificar o clima como **ensolarado (0)** ou **chuvoso (1)** com base nas entradas:
+- Temperatura (frio=0 / quente=1)
+- Umidade (baixa=0 / alta=1)
+
+### Etapas:
+1. Monte uma tabela de dados com entradas binárias.
+2. Treine uma RNA semelhante ao exemplo XOR.
+3. Mostre o resultado final para todas as entradas.
+
+---
+
+## ✅ Conclusão
+
+O algoritmo de **backpropagation** permite que as redes multicamadas aprendam a partir dos erros, ajustando os pesos de forma eficiente. Esse mecanismo é a base do aprendizado profundo e das redes neurais modernas.
