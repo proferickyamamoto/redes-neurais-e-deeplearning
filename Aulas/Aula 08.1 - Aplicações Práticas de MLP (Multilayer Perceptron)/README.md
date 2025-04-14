@@ -31,16 +31,19 @@ Entrada → Camada Oculta (n neurônios) → Camada de Saída
   - **Funções de ativação recomendadas para a saída:**
 
 - `Sigmoid`: usada em **classificações binárias**. Produz uma saída entre 0 e 1, interpretável como probabilidade.
+
   ![Sigmoid](./sigmoid.png)
-)
+
 
 - `Softmax`: usada em **classificações multiclasse**. Normaliza as saídas em um vetor de probabilidades que somam 1.
+
   ![Softmax example](./softmax.png)
-)
+
 
 - `Linear`: usada em **regressão**, ou seja, problemas com saída numérica contínua. A saída é diretamente proporcional à soma ponderada das ativações.
+
   ![Linear function](./linear.png)
-)
+
 
 ---
 
