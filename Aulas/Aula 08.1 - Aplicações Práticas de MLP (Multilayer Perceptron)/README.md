@@ -28,8 +28,16 @@ Entrada → Camada Oculta (n neurônios) → Camada de Saída
 
 - Função de ativação recomendada para a camada oculta: `ReLU`
 - Função para a saída:
-  - `Sigmoid` ou `Softmax` para classificação
-  - `Linear` para regressão
+  - **Funções de ativação recomendadas para a saída:**
+
+- `Sigmoid`: usada em **classificações binárias**. Produz uma saída entre 0 e 1, interpretável como probabilidade.
+  ![Sigmoid](https://upload.wikimedia.org/wikipedia/commons/8/88/Logistic-curve.svg)
+
+- `Softmax`: usada em **classificações multiclasse**. Normaliza as saídas em um vetor de probabilidades que somam 1.
+  ![Softmax example](https://upload.wikimedia.org/wikipedia/commons/8/8a/Softmax_function.svg)
+
+- `Linear`: usada em **regressão**, ou seja, problemas com saída numérica contínua. A saída é diretamente proporcional à soma ponderada das ativações.
+  ![Linear function](https://upload.wikimedia.org/wikipedia/commons/3/3a/Linear_function.svg)
 
 ---
 
