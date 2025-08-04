@@ -131,8 +131,8 @@ As Redes Neurais Convolucionais (CNNs) são uma classe especializada de redes pr
 A operação central das CNNs é a convolução, em que um filtro (kernel) é movido sobre a imagem de entrada para extrair padrões locais, como bordas, cantos e texturas. Essa abordagem permite o compartilhamento de pesos, reduzindo drasticamente a quantidade de parâmetros em relação aos MLPs tradicionais. Segundo LeCun et al. (1998), essa arquitetura foi essencial para o sucesso do modelo LeNet-5 na classificação de dígitos manuscritos \[1].
 
 A camada de pooling (ou subamostragem) é usada para reduzir a dimensionalidade espacial das representações intermediárias. Isso não apenas diminui o custo computacional, mas também ajuda na generalização, tornando o modelo menos sensível a pequenas mudanças de posição. Dentre as técnicas de pooling, o max pooling é o mais utilizado.
-![Texto alternativo](caminho/para/imagem.png)
-![Pooling](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.researchgate.net%2Ffigure%2Fllustration-of-Max-Pooling-and-Average-Pooling-Figure-2-above-shows-an-example-of-max_fig2_333593451&psig=AOvVaw3NqbR48lL24Kqg3LfOmX_G&ust=1754421780611000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCLDKxszw8Y4DFQAAAAAdAAAAABAE.png)
+
+![Pooling](https://www.researchgate.net/publication/333593451/figure/fig2/AS:765890261966848@1559613876098/llustration-of-Max-Pooling-and-Average-Pooling-Figure-2-above-shows-an-example-of-max.png)
 
 As CNNs tornaram-se o padrão de fato em tarefas como classificação de imagens (ImageNet), detecção de objetos (YOLO, R-CNN) e reconhecimento facial. Seu desempenho superior é sustentado por experimentos empíricos robustos, como demonstrado por Krizhevsky et al. (2012) no modelo AlexNet \[2].
 
