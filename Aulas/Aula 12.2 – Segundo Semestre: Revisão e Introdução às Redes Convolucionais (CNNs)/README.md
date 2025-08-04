@@ -134,7 +134,7 @@ A camada de pooling (ou subamostragem) é usada para reduzir a dimensionalidade 
 
 As CNNs tornaram-se o padrão de fato em tarefas como classificação de imagens (ImageNet), detecção de objetos (YOLO, R-CNN) e reconhecimento facial. Seu desempenho superior é sustentado por experimentos empíricos robustos, como demonstrado por Krizhevsky et al. (2012) no modelo AlexNet \[2].
 
-![CNN nos Dígitos]((https://www.louisbouchard.ai/content/images/size/w2000/2021/04/1_QPRC1lcfYxcWWPAC2hrQgg.gif))
+![CNN nos Dígitos]([https://www.louisbouchard.ai/content/images/size/w2000/2021/04/1_QPRC1lcfYxcWWPAC2hrQgg.gif])
 Na prática, frameworks como TensorFlow, Keras e PyTorch facilitaram a construção e treinamento dessas redes, permitindo avanços significativos em aplicações de visão computacional em tempo real, como carros autônomos e diagnóstico médico por imagem \[3].
 
 
