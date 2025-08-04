@@ -132,9 +132,12 @@ A operação central das CNNs é a convolução, em que um filtro (kernel) é mo
 
 A camada de pooling (ou subamostragem) é usada para reduzir a dimensionalidade espacial das representações intermediárias. Isso não apenas diminui o custo computacional, mas também ajuda na generalização, tornando o modelo menos sensível a pequenas mudanças de posição. Dentre as técnicas de pooling, o max pooling é o mais utilizado.
 
+![Pooling](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.researchgate.net%2Ffigure%2Fllustration-of-Max-Pooling-and-Average-Pooling-Figure-2-above-shows-an-example-of-max_fig2_333593451&psig=AOvVaw3NqbR48lL24Kqg3LfOmX_G&ust=1754421780611000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCLDKxszw8Y4DFQAAAAAdAAAAABAE)
+
 As CNNs tornaram-se o padrão de fato em tarefas como classificação de imagens (ImageNet), detecção de objetos (YOLO, R-CNN) e reconhecimento facial. Seu desempenho superior é sustentado por experimentos empíricos robustos, como demonstrado por Krizhevsky et al. (2012) no modelo AlexNet \[2].
 
 ![CNN nos Dígitos](https://www.louisbouchard.ai/content/images/size/w2000/2021/04/1_QPRC1lcfYxcWWPAC2hrQgg.gif)
+
 Na prática, frameworks como TensorFlow, Keras e PyTorch facilitaram a construção e treinamento dessas redes, permitindo avanços significativos em aplicações de visão computacional em tempo real, como carros autônomos e diagnóstico médico por imagem \[3].
 
 
