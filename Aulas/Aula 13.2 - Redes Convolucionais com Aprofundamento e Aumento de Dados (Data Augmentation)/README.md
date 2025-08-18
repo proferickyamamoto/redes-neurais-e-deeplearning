@@ -132,8 +132,6 @@ plt.show()
 
 A imagem gerada pode ser tratada como entrada para uma CNN convencional 2D, viabilizando a análise visual do comportamento frequencial do sinal (como em EEG, ECG, vibração, etc.).
 
-```
-
 ---
 
 ## 🧪 Atividade em Sala
@@ -161,4 +159,4 @@ A imagem gerada pode ser tratada como entrada para uma CNN convencional 2D, viab
 
 O uso de aumento de dados se mostrou uma estratégia poderosa para ampliar a robustez das CNNs, especialmente quando os dados disponíveis são limitados. Além disso, redes mais profundas exigem regularizações como dropout e validação cuidadosa para manter a capacidade de generalização.
 
-```
+
