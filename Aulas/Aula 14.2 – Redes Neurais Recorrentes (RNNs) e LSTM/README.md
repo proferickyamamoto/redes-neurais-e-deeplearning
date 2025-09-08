@@ -12,6 +12,9 @@ As Redes Neurais Recorrentes (RNNs) foram projetadas para lidar com dados sequen
 
 Entretanto, as RNNs tradicionais enfrentam problemas de **desvanecimento e explosão do gradiente**, dificultando o aprendizado de dependências de longo prazo. Para resolver essas limitações, foram propostas variantes como **LSTM (Long Short-Term Memory)** \[2] e **GRU (Gated Recurrent Unit)** \[3].
 
+<img width="1400" height="544" alt="image" src="https://github.com/user-attachments/assets/3f374388-a519-4089-960a-f1c71e259e78" />
+
+
 As LSTMs utilizam um conjunto de portas (input, forget e output gates) que regulam o fluxo de informação e permitem o aprendizado de dependências longas de forma estável. Esse mecanismo tornou as LSTMs o padrão de fato em muitas aplicações envolvendo sequências, incluindo tradução automática, análise de sentimentos e previsão de sinais biomédicos, como ECGs e EEGs.
 
 **Referências:**
