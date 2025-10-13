@@ -174,6 +174,11 @@ Explique por que a busca deu esses resultados.
 
 ## 📚 Referências Relevantes
 
+* Sentence Transformers: biblioteca prática para embeddings de frase. ([sbert.net][2])
+* FAISS: biblioteca eficiente para busca de similaridade vetorial. ([Engineering at Meta][3])
+* “Top 4 Sentence Embedding Techniques” — introdução a embeddings de frase. ([Analytics Vidhya][5])
+
+
 [1]: https://en.wikipedia.org/wiki/Sentence_embedding?utm_source=chatgpt.com "Sentence embedding"
 [2]: https://sbert.net/?utm_source=chatgpt.com "SentenceTransformers Documentation — Sentence Transformers ..."
 [3]: https://engineering.fb.com/2017/03/29/data-infrastructure/faiss-a-library-for-efficient-similarity-search/?utm_source=chatgpt.com "Faiss: A library for efficient similarity search - Engineering at Meta"
