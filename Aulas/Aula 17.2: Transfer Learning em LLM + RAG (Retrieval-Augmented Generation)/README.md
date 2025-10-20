@@ -18,7 +18,7 @@ LLMs (Large Language Models) são pré-treinados em corpora massivos para aprend
 
 Intuição: pense no LLM como um **poliglota experiente**. Em vez de reaprender “o idioma do zero”, você dá **aulas particulares** focadas na **gíria** e **jargão** da sua área (domínio), ajustando apenas “poucos neurônios” — isso é o LoRA.
 
-**Leituras úteis (não-Wikipedia):**
+**Leituras úteis:**
 
 * Houlsby et al., *Parameter-Efficient Transfer Learning for NLP*, ICML 2019 (Adapters).
 * Hu et al., *LoRA: Low-Rank Adaptation of Large Language Models*, ICLR 2022.
